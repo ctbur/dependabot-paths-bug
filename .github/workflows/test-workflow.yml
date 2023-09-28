@@ -2,11 +2,6 @@ on:
   push:
     paths:
       - .github/workflows/test-workflow.yml
-      - core/**
-      - gradle/**
-      - build.gradle
-      - Dockerfile
-      - settings.gradle
 
 jobs:
   dummy-job:
