@@ -1,15 +1,8 @@
+name: Test Workflow
 on:
   push:
     paths:
-      - .github/workflows/test-workflow.yml
-      - core/**
-      - gradle/**
-      - build.gradle
-      - Dockerfile
-      - settings.gradle
-  workflow_dispatch:
-  repository_dispatch:
-    types: [build-all]
+      - non/existent/path
 
 jobs:
   dummy-job:
