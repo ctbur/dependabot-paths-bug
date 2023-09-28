@@ -1,7 +1,7 @@
 on:
   push:
     paths:
-      - .github/workflows/test-workflow.yml
+      - non/existent/path/**
 
 jobs:
   dummy-job:
