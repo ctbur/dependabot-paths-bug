@@ -7,9 +7,6 @@ on:
       - build.gradle
       - Dockerfile
       - settings.gradle
-  workflow_dispatch:
-  repository_dispatch:
-    types: [build-all]
 
 jobs:
   dummy-job:
